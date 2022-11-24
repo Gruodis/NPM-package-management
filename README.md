@@ -2,11 +2,13 @@
 
 <p align="center">How to Update <b><i>Npm Packages</i></b> Safely With <b><i>Npm Check Updates</i></b></p>
 
-## 1. Install NPM Check Updates.
+### 1. Install NPM Check Updates.
+
+It’s often best to just install NPM check updates globally.
   ```bash
   npm install -g npm-check-updates
   ```
-## 2. Run NPM Check Updates.
+### 2. Run NPM Check Updates.
   ```bash
   ncu
   ```
