@@ -4,11 +4,13 @@
 
 ### 1. Install NPM Check Updates.
 
-It’s often best to just install NPM check updates globally.
+  It’s often best to just install NPM check updates globally.
   ```bash
   npm install -g npm-check-updates
   ```
 ### 2. Run NPM Check Updates.
+
+  If installed globaly:
   ```bash
   ncu
   ```
