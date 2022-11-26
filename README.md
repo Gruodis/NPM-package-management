@@ -72,3 +72,7 @@ sudo chown -R $(whoami) /home/username/PhpStormProjects/project_name/node_module
   ```bash
   npx ncu -u -t minor
   ```
+  
+  
+  ![image](https://user-images.githubusercontent.com/43164261/204070647-e275ab1f-4e0a-4823-aef3-b35b93f73202.png)
+
