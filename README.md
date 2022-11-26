@@ -2,11 +2,17 @@
 
 <h1 align="center">Npm 101</h1>
 
-### Fix NPM Error: EACCESS permission denied something.
+### Error: EACCESS permission denied something.
 
-_chown_ is a unix command which means **"change owner"**
+> _**chown**_ is a unix command which means **"_change owner_"**
+> We're going to assign this folder recursively to our own username using **_whoami_**
+
 ```bash
 sudo chown -R $(whoami) ~/.npm
+```
+> NOTE: when we change the owner of _**~/.npm**_ folder, we still encounter an **EACCES** error. To Fix that, we should change the owner of our _**node_modules**_ folder.
+```bash
+sudo chown -R $(whoami) /home/username/PhpStormProjects/project_name/node_modules
 ```
 
 <p align="center">How to Update <b><i>Npm Packages</i></b> Safely With <b><i>Npm Check Updates</i></b></p>
