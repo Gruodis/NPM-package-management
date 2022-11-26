@@ -1,6 +1,13 @@
 <p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/540px-Npm-logo.svg.png?20140904162625"> </p>
 
-<h1 align="center">Npm Packages</h1>
+<h1 align="center">Npm 101</h1>
+
+### Fix NPM Error: EACCESS permission denied something.
+
+_chown_ is a unix command which means **"change owner"**
+```bash
+sudo chown -R $(whoami) ~/.npm
+```
 
 <p align="center">How to Update <b><i>Npm Packages</i></b> Safely With <b><i>Npm Check Updates</i></b></p>
 
