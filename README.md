@@ -16,7 +16,7 @@ sudo chown -R $(whoami) /home/username/PhpStormProjects/project_name/node_module
 ```
 <br>
 
-<p align="center">How to Update <b><i>Npm Packages</i></b> Safely With <b><i>Npm Check Updates</i></b></p>
+<h1 align="center">How to Update <b><i>Npm Packages</i></b> Safely With <b><i>Npm Check Updates</i></b></h1>
 
 ### 1. Install NPM Check Updates.
 
