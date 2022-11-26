@@ -73,6 +73,8 @@ sudo chown -R $(whoami) /home/username/PhpStormProjects/project_name/node_module
   npx ncu -u -t minor
   ```
   <p align="center">
+  
   ![image](https://letscodepare.com/assets/images/npm-resolving-eacces-permissions-denied/i-dont-know.gif)
+  
   </p>
 
