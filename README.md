@@ -60,9 +60,9 @@
   ```bash
   npx ncu -u -t minor
   ```
-  <p align="center">
+<h1 align="center">
   
   ![image](https://letscodepare.com/assets/images/npm-resolving-eacces-permissions-denied/i-dont-know.gif)
   
-  </p>
+</h1>
 
