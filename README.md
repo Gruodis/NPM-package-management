@@ -11,6 +11,9 @@
   
 </h1>
 
+### Change node version:
+https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04
+
 ### 1. Install NPM Check Updates.
 
   It’s often best to just install NPM check updates globally.
